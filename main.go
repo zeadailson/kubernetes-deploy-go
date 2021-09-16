@@ -6,7 +6,7 @@ import (
 	"log"
 )
 
-const webContent = "testa-k8s:v99"
+const webContent = "testa-k8s:v100"
 
 func main() {
 	http.HandleFunc("/", helloHandler)
